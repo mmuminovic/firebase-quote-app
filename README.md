@@ -27,3 +27,8 @@ Deploy on firebase
 }
 ```
 6. firebase deploy
+
+For auto deployments from Github:
+1.  ```firebase init hosting:github```
+2. username/repo-name
+3. build command: ```CI=false npm install && npm run build```
